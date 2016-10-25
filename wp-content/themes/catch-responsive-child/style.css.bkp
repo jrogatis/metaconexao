@@ -1,0 +1,738 @@
+/*
+ Theme Name:   Catch Responsive Child
+ Theme URI:    http://www.metaconexao.com.br
+ Description:  Catch Responsive Child Theme
+ Author:       Jean Philip de Rogatis
+ Author URI:   http://www.metaconexao.com.br
+ Template:     catch-responsive
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  catch-responsive-child
+*/
+
+
+/*--------------------------------------------------------------
+2. Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: Prometo, "Open Sans", sans-serif;
+	color:rgba(255,255,255,1.00)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Prometo, "Droid Sans", sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+3. conf geral de todas as páginas
+--------------------------------------------------------------*/
+
+/*deixa primeiro tudo tranasparente*/
+ .hfeed {
+	background-color: rgba(34,36,85,0.0);
+	
+}
+
+p.entry-meta span a {
+	color: rgba(255,255,255,1.00);	
+	
+}
+
+div.textwidget{
+	color: rgba(255,255,255,1.00);	
+}
+
+
+
+/*parte do menu de navegação e do footer*/
+ #masthead, .nav-primary, .site-footer {
+	background-color: rgba(4,3,68,0.80) !important;
+}
+
+/*toda a parte do conteudo*/
+div#content {
+	background-color: rgba(87,87,87,0.70);
+}
+
+
+.sub-item-organica {
+	color: #FD0031;
+	padding-left: 30%;
+}
+
+#imagem-pagina-organica {
+	float: left;
+}
+
+#masthead {
+	max-height: 55px;
+}
+
+#masthead .search-field {
+	display: none;
+}
+
+
+#masthead,
+div,
+aside,
+.sidebar,
+.sidebar-header-right,
+.widget-area,
+.widget-wrap {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+
+
+#header-left-menu,
+.genericon,
+.genericon-menu {
+	color: #A9A7A7;
+}
+
+div#pag_dna  {
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 5%;
+	padding-right: 5%;
+	max-width: 100%;
+}
+
+div#Wrap_Cabeçario {
+	padding-bottom: 5%;
+	
+	}
+
+h2#Sub_Titulo_DNA {
+	color: rgba(230,230,230,1.00);
+	font-size: 250%;
+	text-align: center;
+	padding-top: 1%;
+	border-top: thick double rgba(0,0,0,0.80);
+	font-weight: bold;
+	max-width: 100%;
+}
+
+div#pag_dna article#Artigo_Post_Nossas_Historias {
+	max-width: 100%;
+	padding-top: 2%;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*--------------------------------------------------------------
+4. figuras dos projetos da na parte principal
+--------------------------------------------------------------*/
+
+figure.featured-homepage-image {
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+}
+
+img.pngfix wp-post-image {
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+/*--------------------------------------------------------------
+5 - pagina Pessoas
+--------------------------------------------------------------*/
+
+
+/*foto*/
+
+div.foto_pessoa {
+	display: inline-block !important;
+	vertical-align: top !important;
+	width: 26%;
+}
+
+img.imgPessoa {
+	min-width: 250px !important;
+}
+
+
+/*descrição*/
+
+span#TelPessoa {
+	font-size: 32px;
+	vertical-align: top;
+	text-align: center;
+	-moz-transition: color .1s ease-in 0;
+	-webkit-transition: color .1s ease-in 0;
+	display: inline-block;
+	font-family: "Genericons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-decoration: inherit;
+	text-transform: none;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	speak: none;
+	color: #0900FF;
+}
+
+span#emailPessoa {
+	font-size: 32px;
+	vertical-align: top;
+	text-align: center;
+	-moz-transition: color .1s ease-in 0;
+	-webkit-transition: color .1s ease-in 0;
+	display: inline-block;
+	font-family: "Genericons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-decoration: inherit;
+	text-transform: none;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	speak: none;
+	color: #0900FF;
+}
+
+span#linkedinPessoa {
+	font-size: 32px;
+	vertical-align: top;
+	text-align: center;
+	-moz-transition: color .1s ease-in 0;
+	-webkit-transition: color .1s ease-in 0;
+	display: inline-block;
+	font-family: "Genericons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-decoration: inherit;
+	text-transform: none;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	speak: none;
+	color: #0900FF;
+}
+
+.labelPessoa {
+	color: #1E25C7;
+	font-family: Prometo;
+}
+
+a.telPessoa_content:hover {
+	color: #2A2ABA
+}
+
+a.email_pessoa:hover {
+	color: #2A2ABA
+}
+
+a.linkedin_pessoa:hover {
+	color: #2A2ABA
+}
+
+div#desc_Pessoa.desc_pessoa {
+	display: inline-block !important;
+	vertical-align: top !important;
+	font-family: Prometo;
+	font-size: 16pt;
+	width: 73%;
+	padding-left: 3%;
+}
+
+
+/*Cargo*/
+
+label#titlePessoa_content {
+	font-size: 200%;
+	font-weight: bold;
+	font-style: italic;
+	text-align: left;
+	min-width: 100%;
+	display: block;
+	color: #656565;
+	text-shadow: 4px 4px #DCDCDC;
+}
+
+
+/*telefone*/
+
+div.telefones {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	max-width: 100%;
+	padding-top: 1%;
+}
+
+
+/*linkedin*/
+
+div.linkedin {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-width: 100%;
+	padding-top: 1%;
+	display: block;
+}
+
+
+/*barra de rolagem da tab de pessoas*/
+
+#style-Resume.myBox {
+	border: inset;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	line-height: 18px;
+	font-size: 16px;
+	font-family: sans-serif;
+	height: 250px;
+	overflow: auto;
+	text-align: justify;
+}
+
+
+/*texto interno do BOX*/
+
+article#pessoaResume p {
+	color: #222455;
+	line-height: 18px;
+	font-size: 16px;
+	text-indent: 3%;
+	margin: 0em;
+}
+
+#style-Resume::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	box-shadow: #A7A7A7;
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#style-Resume::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-Resume::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(122, 153, 217)), color-stop(0.72, rgb(73, 125, 189)), color-stop(0.86, rgb(28, 58, 148)));
+}
+
+
+/* NAO TEM MAIS ESTA PARTE */
+/*--------------------------------------------------------------
+aqui e a conf da imagem dos projetos na homepage
+--------------------------------------------------------------*/
+article.post.hentry.featured-page-content figure.featured-homepage-image {
+	height: 370px !important;
+	clear: both !important;
+}
+
+
+/*tamanho das imagens dos projetos na homepage*/
+
+article.post.hentry.featured-page-content figure.entry-container {
+	padding-top: 200px !important;
+}
+
+
+/*titulo dos projetos*/
+
+div.featured-heading-wrap h1#featured-heading.entry-title {
+	color: #89A3E3 !important;
+	font-size: 300% !important;
+	font-weight: bold;
+}
+
+
+/*subtitulo dos projetos */
+
+div.featured-heading-wrap p {
+	font-size: 250% !important;
+}
+
+
+/*************************************************/
+
+
+/*sacanagem na pagina nosso-negocio,,,, esconde o conteudo porque o que eu quero
+esta no footer....*/
+
+div#Conteudo_Pagina_Projetos {
+	visibility: hidden !important;
+}
+
+
+/*--------------------------------------------------------------
+5v - pagina Nossas Histórias
+--------------------------------------------------------------*/
+
+ div#Wrap_Cabeçario {
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ }
+
+
+
+div#imagem_da_pagina {
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	margin-left: 0;
+	max-width: 100%;
+	vertical-align: middle	
+}
+
+div#imagem_da_pagina img {
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	width: 150%;
+	height: 150%;
+	 }
+	
+
+div#texto-Nossas-Histórias {
+	font-family: Prometo;
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	font-size: 300%;
+	text-align: center;
+	color: #0C186C;
+	max-width: 50%;
+	vertical-align: middle
+	 }
+
+div#Sidebar_Nossas_Historias aside {
+	float: left;
+	max-width: 20%;
+	font-family: Prometo;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+article#Artigo_Post_Nossas_Historias {
+	max-width: 75%;
+	float: right;
+}
+
+a#titulo_Post {
+	font-family: Prometo;
+	color: #D4D6DB;
+}
+
+#infos_do_post {
+	display: block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding-bottom: 5%;
+	padding-left: 2%;
+
+}
+
+#infos_do_post a {
+
+	color:rgba(255,255,255,1.00)
+}
+
+.info_post {
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	max-width: 20%;
+	padding-right: 20%;
+		
+}
+
+div#imagem_do_post {
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	float: left;
+	padding-right: 3%;
+}
+
+div#Conteudo_Post {
+	display: inline-block;
+	max-width: 70%;
+	text-align: justify;
+	color:rgba(255,255,255,1.00)
+}
+
+a.more-link {
+	color:rgba(0,0,0,1.00)
+}
+
+a.more-link:hoover {
+	color:rgba(255,255,255,1.00)
+}
+
+/*------------------------------------------------------------------------------------------
+/------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:990px) {
+	div#content.site-content {
+	
+		padding-top: 30px;
+	
+	}
+	
+	
+	div#Wrap_Cabeçario {
+	
+	padding-top: 2%;
+	
+	}
+	
+	div#imagem_da_pagina {
+		
+		margin:auto;
+		width:100%;
+	}
+	
+	div#texto-Nossas-Histórias {
+	
+		max-width: 100%;
+		vertical-align: middle;
+	
+	}
+
+	div#Sidebar_Nossas_Historias aside section{
+		display: block;
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+
+	}
+	
+	div#imagem_do_post img{
+		
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+			
+	}
+
+	div#Conteudo_Post {
+		
+		max-width: 89%;
+		
+	}
+
+	
+	
+
+}
+
+/*------------------------------------------------------------------------------------------
+/------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:700px) {
+	/*--------------------------------------------------------------	
+	muda o padding de todas as paginas
+	--------------------------------------------------------------*/
+		main#main.site-main {
+			padding-top: 17px !important;
+		}
+		
+		
+	/*--------------------------------------------------------------
+	5 - pagina Pessoas
+	--------------------------------------------------------------*/
+		div.foto_pessoa {
+			display: block;
+			-webkit-box-sizing: content-box;
+			-moz-box-sizing: content-box;
+			box-sizing: content-box;
+			width: 100%;
+		}
+		div.foto_pessoa img {
+			display: block;
+			margin: 0 auto;
+		}
+		div.desc_pessoa {
+			display: block;
+			-webkit-box-sizing: content-box;
+			-moz-box-sizing: content-box;
+			box-sizing: content-box;
+			width: 100%;
+		}
+		div#desc_Pessoa.desc_pessoa {
+			width: 100%;
+		}
+	
+	
+	/*--------------------------------------------------------------
+	5v - pagina Nossas Histórias
+	--------------------------------------------------------------*/
+	
+	
+		
+}
+
+
+
+/*------------------------------------------------------------------------------------------
+/------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:480px) {
+	/*************************************************************
+	pag principal
+	************************************************************/
+	
+	body.custom-background {
+		   -webkit-background-size: 100% 100% !important;
+   			background-size: 100% 100% !important;
+	}
+	
+	div.Conteudo_Sobre_Nos  {
+	font-size: 100% !important;
+	}
+	
+	/*************************************************************
+	pag neogcios
+	************************************************************/
+	
+	h1.entry-title {
+		color:white
+	}
+	
+	
+	/*--------------------------------------------------------------
+5 - pagina Pessoas
+--------------------------------------------------------------*/
+	div.telefones {
+		font-size: 80%;
+		display: inline-block;
+	}
+	div.email {
+		font-size: 70% !important;
+		display: inline-block;
+	}
+	div.linkedin {
+		font-size: 80%;
+		display: inline-block;
+	}
+	
+	
+	/*--------------------------------------------------------------
+	5v - pagina Nossas Histórias
+	--------------------------------------------------------------*/
+	
+	div#texto-Nossas-Histórias p {
+	
+	text-align: justify;
+	line-height: 30px !important;
+		}
+	
+	div#texto-Nossas-Histórias p span{
+	font-size: 70% !important;
+	line-height: 30px !important;
+	}
+
+	
+	
+	div#Sidebar_Nossas_Historias{
+		display: none;
+		visibility: hidden;		
+		}
+		
+	div#Wrap_Cabeçario {
+		display: block;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;	
+	
+	}
+		
+	
+	
+	div#imagem_da_pagina {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		float: none;
+		display: block;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		width: auto;
+		height: auto;
+	}
+		
+		
+	
+	div#infos_do_post a {
+		display: block;
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;		
+	}
+	
+	
+	
+	div#imagem_do_post img {
+		display: inline-block;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 300px;
+		height: 300px;
+		min-width: 0px;
+		min-height: 0px;
+	}	
+
+	
+	
+		
+	article#Artigo_Post_Nossas_Historias {
+		display: block;
+		webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		min-width: 100%;
+		}
+		
+	
+	
+	
+}
